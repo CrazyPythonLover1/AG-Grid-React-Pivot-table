@@ -7,6 +7,18 @@
   "resolved" "https://registry.npmjs.org/@adobe/css-tools/-/css-tools-4.0.1.tgz"
   "version" "4.0.1"
 
+"@ag-grid-community/client-side-row-model@^28.2.1":
+  "integrity" "sha512-JLLNVNAtSbVjg/h0+JqNxbRGzHR9xl3YHO4kVt8Bu0UO1XQLfGLT8wkzqQTcEOiq0pEfFTee7/BGT3oHOQfUQg=="
+  "resolved" "https://registry.npmjs.org/@ag-grid-community/client-side-row-model/-/client-side-row-model-28.2.1.tgz"
+  "version" "28.2.1"
+  dependencies:
+    "@ag-grid-community/core" "~28.2.1"
+
+"@ag-grid-community/core@~28.2.1":
+  "integrity" "sha512-qGhqZhY8KbPlr3cJBVkNjGKu+cOyFc8IGvPcvlm0pjNC9cdxO/ct9Sa1Dg+k3ACCEroMEt1apBvnoOgurpvewQ=="
+  "resolved" "https://registry.npmjs.org/@ag-grid-community/core/-/core-28.2.1.tgz"
+  "version" "28.2.1"
+
 "@ampproject/remapping@^2.1.0":
   "integrity" "sha512-qRmjj8nj9qmLTQXXmaR1cck3UXSRMPrbsLJAasZpF+t3riI71BXed5ebIOYwQntykeZuhjsdweEc9BxH5Jc26w=="
   "resolved" "https://registry.npmjs.org/@ampproject/remapping/-/remapping-2.2.0.tgz"
@@ -8757,6 +8769,11 @@
   "version" "3.1.5"
   dependencies:
     "is-typedarray" "^1.0.0"
+
+"typescript@^3.2.1 || ^4", "typescript@>= 2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
+  "integrity" "sha512-CIfGzTelbKNEnLpLdGFgdyKhG23CKdKgQPOBc+OUNrkJ2vr+KSzsSV5kq5iWhEQbok+quxgGzrAtGWCyU7tHnA=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.9.3.tgz"
+  "version" "4.9.3"
 
 "unbox-primitive@^1.0.2":
   "integrity" "sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw=="
