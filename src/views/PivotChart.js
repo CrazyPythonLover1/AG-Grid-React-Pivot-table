@@ -45,8 +45,8 @@ const PivotChart = () => {
         sortable:true,
         filter: true,
         flex: 1,
-      minWidth: 100,
-      editable: true,
+        minWidth: 100,
+        editable: true,
         
     }));
 
@@ -63,7 +63,6 @@ const PivotChart = () => {
     // includes grand total
     const groupIncludeTotalFooter = true;
 
-    const treeData = true;
 
     const processCellForClipboard = useCallback((params) => {
         if (
